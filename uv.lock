@@ -415,8 +415,8 @@ wheels = [
 ]
 
 [[package]]
-name = "composer"
-version = "0.1.0"
+name = "content-alchemist"
+version = "0.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "content-core", extra = ["docling"] },
