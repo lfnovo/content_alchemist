@@ -1,5 +1,5 @@
 [project]
-name = "fusion"
+name = "content_alchemist"
 version = "0.0.1"
 description = "Add your description here"
 readme = "README.md"
@@ -19,10 +19,10 @@ requires = ["hatchling", "pip"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/fusion"]
+packages = ["src/content_alchemist"]
 
 [tool.setuptools]
-package-dir = {"fusion" = "src/fusion"}
+package-dir = {"content_alchemist" = "src/content_alchemist"}
 
 [dependency-groups]
 dev = [
